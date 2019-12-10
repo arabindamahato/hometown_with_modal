@@ -1,0 +1,22 @@
+					====  TEMPLATE INHERITANCE  ====
+
+
+This project contain template inheritance:
+	it means => after creating home page, I extends the home page property into the child page
+		    by using the jinja tag. 
+			
+		{% extends "homepage.html" %}  => it inherites all the properties from home page.
+						  If you want to do specific into child page then you shold go for
+							{% block  blockname %}
+								-------------
+								-------------
+								-------------
+							{% endblock %}
+
+		If you want specific title then you should go for-
+			{% block title %}
+			<title>.......</title>
+			{% end title %}
+			
+
+		     
